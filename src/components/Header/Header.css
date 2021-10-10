@@ -7,6 +7,10 @@
 .header nav {
     background-color: black;
     line-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right:10px;
 }
 .header nav a{
     text-decoration: none;
@@ -17,4 +21,20 @@
 }
 .header nav a:hover{
     background-color: lightgray;
+}
+.profileimg{
+    border-radius: 50%;
+    margin-right: 0px;
+}
+.logoutbutton{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: chocolate;
+    cursor: pointer;
+    color: #fff;
+}
+span{
+    margin: 0px 10px;
+    color: cornsilk;
 }

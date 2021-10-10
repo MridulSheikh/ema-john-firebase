@@ -1,0 +1,73 @@
+.login{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dispaly{
+    display: block;
+}
+.from{
+    padding: 10px 45px 20px 38px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px rgba(90, 69, 69, 0.212);
+    background-color: rgba(255, 235, 205, 0.247);
+}
+input{
+    width: 100%;
+    font-size: 18px;
+    padding: 3px 5px;
+}
+label{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: rgba(68, 67, 67, 0.993);
+}
+.singoutbtn{
+    width: 106%;
+    margin-top: 15px;
+    padding: 7px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #FE9700;
+    color: #fff;
+    font-weight: 500;
+}
+.center{
+    text-align: center;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.google{
+    width: 106%;
+    padding: 7px 0px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    background-color: rgb(1, 111, 255);
+    cursor : pointer;
+}
+.orange{
+    color: #FE9700;
+}
+input:focus{
+    outline: 2px solid #FE9700;
+    border: 2px solid #FE9700;
+    border-radius: 5px;
+}
+.singupbtn{
+    padding: 7px 0px;
+    width: 106%;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(121, 121, 121);
+    margin-top: 5px;
+    border-radius: 4px;
+    color: #fff;
+}
