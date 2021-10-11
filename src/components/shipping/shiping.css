@@ -1,0 +1,29 @@
+.shippingForm{
+    width: 20%;
+}
+.shippingdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.errorhandle{
+    color: red;
+}
+.shippinginput{
+    margin-top: 20px;
+    padding: 3px 5px;
+}
+.submit{
+    width: 104%;
+    border: none;
+    background-color: #FE9700;
+    color: #fff;
+    padding: 5px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.shippinglogo{
+    color: #FE9700;
+    text-align: center;
+}
